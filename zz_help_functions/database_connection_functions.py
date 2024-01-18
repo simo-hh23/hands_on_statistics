@@ -1,20 +1,3 @@
-#> define the correct folderpath
-
-def set_folerpath():
-    
-    import getpass
-    
-    username = getpass.getuser()
-    
-    if username == 'simon':
-        folderPath = 'C:/Users/simon/Desktop/github_projects/hands_on_statistics/'
-    else:
-        folderPath = '/Users/tugbasabanoglu/Desktop/hands_on_statistics/'
-    
-    return folderPath
-
-
-
 #> oecd connector function
 
 def get_from_oecd(sdmx_query):
